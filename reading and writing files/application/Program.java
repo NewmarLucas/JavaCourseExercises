@@ -23,9 +23,8 @@ public class Program {
 
 		List<Product> list = new ArrayList();
 		
-//		System.out.println("Enter file path:");
-//		String sourceFileStr = sc.nextLine();
-		String sourceFileStr = "C:\\Windows\\Temp\\input.csv";
+		System.out.println("Enter file path:");
+		String sourceFileStr = sc.nextLine();
 		
 		File sourceFile = new File(sourceFileStr);
 		String sourceFolderStr = sourceFile.getParent();
